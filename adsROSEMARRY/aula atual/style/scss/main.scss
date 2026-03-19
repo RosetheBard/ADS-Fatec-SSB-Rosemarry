@@ -1,0 +1,21 @@
+// imports
+@use "Variables";
+@use "HeadFooter";
+
+.cabecalho {
+	background-color: darkslategray ;
+	height: fit-content;
+	padding: 15px 10px;
+}
+
+.pe {
+	background-color:darkgray;
+	height: fit-content;
+    padding: 10px 15px;
+}
+
+.corpo {
+	background-color: lightgray;
+	height: 100vh;
+    padding: 70px;
+}
