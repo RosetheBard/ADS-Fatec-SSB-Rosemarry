@@ -21,7 +21,17 @@
         </header>
 
     <main class="corpo">
-        
+        <div class="row">
+            <div class="col-12">
+                <div class="border border-danger bx-pink">
+                   
+                <!-- corpo do portifólio -->
+                 
+                 <!--  -->
+
+                </div>
+            </div>
+        </div>
     </main>
 
 
