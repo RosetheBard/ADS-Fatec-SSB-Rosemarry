@@ -1,0 +1,35 @@
+.i-sm {
+  height: 45px;
+}
+
+.mn-head {
+  float: right;
+}
+
+.cabecalho {
+  background-color: darkslategray;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 15px 10px;
+}
+
+nav {
+  padding: 2px 4px;
+}
+
+a {
+    color: blueviolet;
+}
+
+.pe {
+  background-color: darkgray;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 10px 15px;
+}
+
+.corpo {
+  background-color: lightgray;
+  height: 100vh;
+  padding: 70px;
+}
