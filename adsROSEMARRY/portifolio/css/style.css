@@ -30,15 +30,8 @@
 	width: 40vw;
 }
 
-.i-cr {
-	width: 40vw;
-}
 
 /* classes de centralização de imagens */
-.mn-hv {
-	float: right;
-}
-
 .mn-head {
 	float: left;
 }
@@ -51,6 +44,11 @@
 	height: fit-content;
 }
 
+.bx-darkpink {
+	background-color: rosybrown;
+	padding: 5vw 10vw 10vw 10vw;
+	height: fit-content;
+}
 /* versão em telas pequenas */
 
 @media (max-width: 700px) {
@@ -58,13 +56,10 @@
 		padding: 0 0 0 45vw;
 	}
 
-	.bx-pink {
+	.bx-pink .bx-darkpink {
 		padding: 2vw 8vw 2vw 4vw;
 	}
 
-	.i-cr {
-		width: 55vw;
-	}
 	.i-bn {
 		width: 55vw;
 	}

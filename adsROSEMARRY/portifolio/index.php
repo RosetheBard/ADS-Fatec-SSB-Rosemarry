@@ -9,28 +9,43 @@
         content="esse é um website de portifolio, com o intuito de divulgar meus trabalhos e estudos">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+
+
     <link rel="stylesheet" href="css/style.css">
+
     <title>Rose-HomePage</title>
 </head>
 
 <body class="conteiner">
     <header class="row">
         <div class="col-12 cabecalho">
-            <p>
-                <img src="img/lua.png" class="i-sm mn-head" alt="logo do portifolio">
-                <button class="mn-hv" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false"
-                    aria-controls="collapseExample">
-                    <img src="img/pfbanner.jpg" class="i-sm" alt="menu expansivo">
-                </button>
-            </p>
-
-
-            <div class="collapse" id="collapseExample">
-                <div class="card card-body">
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid.
-                    Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            <div class="collapse" id="navbarToggleExternalContent">
+                <div class="p-4">
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.php">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contatos</a>
+                        </li>
                 </div>
             </div>
+            <nav class="navbar">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.php">
+                        <img src="img/lua.png" alt="Logo" class="d-inline-block align-text-top i-sm">
+                        Rosemarry
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+            </nav>
+
         </div>
     </header>
 
@@ -39,13 +54,14 @@
             <div class="bx-pink">
 
                 <!-- corpo do portifólio -->
-                <h1 class="text-center">Seja Bem vindo</h1>
+                <h1 class="text-center">Seja Bem-vindo</h1>
 
                 <img src="img/pfbanner.jpg" class="i-bn mx-auto d-block" alt="banner do portifólio">
+                <!--  -->
 
                 <!-- sessão de ultimos projetos -->
                 <section>
-                    <h2 class="text-center">Ultimos Projetos</h2>
+                    <h2 class="text-center">Últimos Projetos</h2>
 
                     <div id="ultimos-projetos" class="carousel slide text-center">
                         <div class="carousel-inner">
@@ -74,10 +90,19 @@
                         </button>
                     </div>
                 </section>
-
-
                 <!--  -->
 
+                <!-- Skills -->
+                 <div class="bx-darkpink">
+                    h
+                 </div>
+                <!--  -->
+
+                <!-- sessão de sobre mim -->
+                <!--  -->
+                
+                <!-- links para as proximas paginas -->
+                <!--  -->
             </div>
         </div>
     </main>
@@ -87,6 +112,10 @@
             <small>&copy; 2026 Rosemarry. todos os reservados</small>
         </div>
     </footer>
+
+
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
