@@ -40,14 +40,16 @@
 
 .bx-pink {
 	background-color: pink;
-	padding: 5vw 10vw 10vw 10vw;
+	padding: 5vh 15vw 5vh 10vw;
 	height: fit-content;
+	align-content: center;
 }
 
-.bx-darkpink {
+.bx-dpink {
 	background-color: rosybrown;
-	padding: 5vw 10vw 10vw 10vw;
-	height: fit-content;
+	height: fit-content;	
+	padding: 2vh 5vw 2vh 5vw;
+	margin: 0 5vw 0 5vw;
 }
 /* versão em telas pequenas */
 
@@ -56,8 +58,13 @@
 		padding: 0 0 0 45vw;
 	}
 
-	.bx-pink .bx-darkpink {
-		padding: 2vw 8vw 2vw 4vw;
+	.bx-pink .bx-dpink {
+		height: fit-content;
+		margin: 0 0 0 0;
+	}
+
+	.bx-pink {
+		padding: 5vh 2vw 5vh 2vw;
 	}
 
 	.i-bn {

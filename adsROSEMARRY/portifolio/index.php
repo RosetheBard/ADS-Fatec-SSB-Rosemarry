@@ -92,19 +92,22 @@
                 </section>
                 <!--  -->
 
-                <!-- Skills -->
-                 <div class="bx-darkpink">
-                    h
-                 </div>
-                <!--  -->
 
-                <!-- sessão de sobre mim -->
-                <!--  -->
-                
-                <!-- links para as proximas paginas -->
-                <!--  -->
+                <div class="bx-dpink fluid">
+                    <a href="#"><img src="img/lua.png" class="i-sm" alt=""></a>
+                    <a href="#"><img src="img/lua.png" class="i-sm" alt=""></a>
+                    <a href="#"><img src="img/lua.png" class="i-sm" alt=""></a>
+                    <a href="#"><img src="img/lua.png" class="i-sm" alt=""></a>
+                    <a href="#"><img src="img/lua.png" class="i-sm" alt=""></a>
+                    <br>
+                    <a href="#"><p class="text-end">ver mais</p></a>
+                </div>
+
+
+                <h2 class="text-center">Quem Sou eu?</h2>
+                <p> [...] </p>
             </div>
-        </div>
+
     </main>
 
     <footer class=" row footer">
