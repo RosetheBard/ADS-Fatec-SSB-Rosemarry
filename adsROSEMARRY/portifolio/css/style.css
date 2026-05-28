@@ -1,20 +1,20 @@
 /* classes de estruturação principal */
 
-.cabecalho {
+header {
 	background-color: palevioletred;
 	height: -moz-fit-content;
 	height: fit-content;
 	padding: 15px 25px;
 }
 
-.corpo {
+main {
 	padding: 0 60px;
-	height: fit-content;
+	height: 100vh;
 	background-image: url("../img/pfbanner.jpg");
 	background-attachment: fixed;
 }
 
-.footer {
+footer {
 	background-color: palevioletred;
 	padding: 20px 50px;
 	height: fit-content;
@@ -32,30 +32,35 @@
 
 
 /* classes de centralização de imagens */
-.mn-head {
+.float-l {
 	float: left;
+}
+
+.float-r {
+	float: right;
 }
 
 /* color boxes */
 
 .bx-pink {
 	background-color: pink;
-	padding: 5vh 15vw 5vh 10vw;
 	height: fit-content;
 	align-content: center;
 }
 
 .bx-dpink {
 	background-color: rosybrown;
-	height: fit-content;	
-	padding: 2vh 5vw 2vh 5vw;
-	margin: 0 5vw 0 5vw;
+	height: fit-content;
 }
 /* versão em telas pequenas */
 
 @media (max-width: 700px) {
-	.mn-head {
+	.float-l {
 		padding: 0 0 0 45vw;
+	}
+
+	.float-l {
+		padding: 0 45vw 0 0;
 	}
 
 	.bx-pink .bx-dpink {
