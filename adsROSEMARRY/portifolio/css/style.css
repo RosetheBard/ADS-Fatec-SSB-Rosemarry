@@ -1,21 +1,20 @@
 /* classes de estruturação principal */
 
 header {
-	background-color: palevioletred;
-	height: -moz-fit-content;
+	background-color:#f79eb1;
 	height: fit-content;
 	padding: 15px 25px;
 }
 
 main {
 	padding: 0 60px;
-	height: 100vh;
-	background-image: url("../img/pfbanner.jpg");
+	height: 90vh;
+	background-color: #f2e7d2;
 	background-attachment: fixed;
 }
 
 footer {
-	background-color: palevioletred;
+	background-color: #f79eb1;
 	padding: 20px 50px;
 	height: fit-content;
 }
@@ -25,11 +24,6 @@ footer {
 .i-sm {
 	height: 50px;
 }
-
-.i-bn {
-	width: 40vw;
-}
-
 
 /* classes de centralização de imagens */
 .float-l {
@@ -42,8 +36,8 @@ footer {
 
 /* color boxes */
 
-.bx-pink {
-	background-color: pink;
+.bx {
+	background-color: #ae8fba;
 	height: fit-content;
 	align-content: center;
 }
@@ -52,6 +46,18 @@ footer {
 	background-color: rosybrown;
 	height: fit-content;
 }
+
+/* fontes */
+
+.playwrite-gb-j {
+  font-family: "Playwrite GB J", cursive;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+
 /* versão em telas pequenas */
 
 @media (max-width: 700px) {
